@@ -24,3 +24,4 @@ class PhoneBookTest(unittest.TestCase):
 
     def test_empty_phonebook_is_consistent(self):
         self.assertTrue(self.phonebook.is_consistent())
+
